@@ -1,0 +1,45 @@
+.card--container{
+  width: 100%;
+  height: 120px;
+  position: relative;
+  border: 1px solid rgba(225,225,225,1);
+  border-radius: 10px 0 10px 0 ;
+  color: #f4f4f4
+}
+.card--wrapper{
+  height: 100%;
+  overflow: hidden;
+}
+
+.card--image{
+  float:left;
+  width: 40%;
+}
+
+.card--name{
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  float: left;
+  width: 60%;
+}
+
+.card--name > h3 {
+  width: 80%;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+
+.card--container:hover {
+  white-space: normal;
+}
+
+.card--image > img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 0 0 10px 0 ;
+}

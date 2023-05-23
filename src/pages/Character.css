@@ -1,0 +1,31 @@
+.character__info--main{
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;;
+}
+
+.info--main__textbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.character__info--main > img{
+  height: 380px;
+  width: 40%;
+}
+
+.character__info--sub {
+  color: #f6f6f6;
+}
+
+.info--main__textbox > p {
+  color: #a8a8a8;
+}
+
+li{
+  color: #a8a8a8
+}
